@@ -12,8 +12,7 @@ composer require sccp/common-utils
 
 ```shell
 git checkout main
-git tag v1.0.6
-git push origin v1.0.6
+git tag v1.0.6 && git push origin v1.0.6
 
 https://packagist.org/packages/sccp/common-utils
 ```
