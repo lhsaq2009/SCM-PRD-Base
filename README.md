@@ -11,6 +11,7 @@ composer require sccp/common-utils
 # 更新
 
 ```shell
-git tag v1.0.0
-git push origin v1.0.0
+git checkout main
+git tag v1.0.4
+git push origin v1.0.4
 ```
