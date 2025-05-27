@@ -2,7 +2,6 @@
     "name": "sccp/common-utils",
     "description": "公共服务工具包",
     "type": "library",
-    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -20,6 +19,8 @@
         "robinvdvleuten/ulid": "^5.0",
         "oittaa/uuid": "^1.9"
     },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "keywords": [
         "uuid",
         "ulid",
