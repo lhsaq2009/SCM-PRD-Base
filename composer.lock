@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dcaaa9042ac3dd9f3962a02b32df134b",
+    "packages": [
+        {
+            "name": "oittaa/uuid",
+            "version": "1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oittaa/uuid-php.git",
+                "reference": "f78ee838ed8cffc797c6cbb9e41d3a58f8431cfa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oittaa/uuid-php/zipball/f78ee838ed8cffc797c6cbb9e41d3a58f8431cfa",
+                "reference": "f78ee838ed8cffc797c6cbb9e41d3a58f8431cfa",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UUID\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A small PHP class for generating RFC 4122 version 3, 4, and 5 universally unique identifiers (UUID). Additionally supports draft versions 6 and 7.",
+            "keywords": [
+                "guid",
+                "identifier",
+                "uuid"
+            ],
+            "support": {
+                "issues": "https://github.com/oittaa/uuid-php/issues",
+                "source": "https://github.com/oittaa/uuid-php/tree/1.9"
+            },
+            "time": "2022-10-25T19:11:01+00:00"
+        },
+        {
+            "name": "robinvdvleuten/ulid",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robinvdvleuten/php-ulid.git",
+                "reference": "5389c9a2ff020815cc1f2b840334fdcb84ae3f35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robinvdvleuten/php-ulid/zipball/5389c9a2ff020815cc1f2b840334fdcb84ae3f35",
+                "reference": "5389c9a2ff020815cc1f2b840334fdcb84ae3f35",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "phpbench/phpbench": "^1.0.0-alpha3",
+                "phpunit/phpunit": "^8.5",
+                "symfony/phpunit-bridge": "^5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ulid\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin van der Vleuten",
+                    "email": "robin@webstronauts.co"
+                }
+            ],
+            "description": "Universally Unique Lexicographically Sortable Identifier (ULID) implementation for PHP.",
+            "homepage": "https://github.com/robinvdvleuten/php-ulid",
+            "support": {
+                "issues": "https://github.com/robinvdvleuten/php-ulid/issues",
+                "source": "https://github.com/robinvdvleuten/php-ulid/tree/v5.0.0"
+            },
+            "time": "2020-12-06T19:13:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
