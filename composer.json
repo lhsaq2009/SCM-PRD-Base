@@ -2,7 +2,6 @@
     "name": "sccp/common-utils",
     "description": "公共服务工具包",
     "type": "library",
-    "version": "1.0.7",
     "license": "MIT",
     "authors": [
         {
@@ -20,7 +19,7 @@
         "robinvdvleuten/ulid": "^5.0",
         "oittaa/uuid": "^1.9",
         "yidas/yii2-bower-asset": "2.0.13.1",
-        "yiisoft/yii2": "2.0.32"
+        "yiisoft/yii2": "2.0.35"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
