@@ -7,6 +7,7 @@
 ```shell
 php composer.phar require sccp/common-utils
 php composer.phar remove yiisoft/yii2
+php composer.phar update
 ```
 
 # 更新
