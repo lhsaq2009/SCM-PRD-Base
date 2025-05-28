@@ -5,14 +5,15 @@
 # 安装
 
 ```shell
-composer require sccp/common-utils
+php composer.phar require sccp/common-utils
+php composer.phar remove yiisoft/yii2
 ```
 
 # 更新
 
 ```shell
 git checkout main
-git tag 1.0.9 && git push origin 1.0.9
+git tag 1.0.10 && git push origin 1.0.10
 
 https://packagist.org/packages/sccp/common-utils
 ```
