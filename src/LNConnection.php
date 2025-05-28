@@ -15,7 +15,7 @@ class LNConnection extends Connection
      */
     public function createCommand($sql = null, $params = [])
     {
-        if ($sql !== null) {
+        if ($sql !== null && $sql && stripos($sql, 'UUID') !== false) {
             $sql = str_ireplace('UUID()', 'TIME_ID()', $sql);
             $sql = str_ireplace('UUID_SHORT()', 'TIME_ID()', $sql);
         }
