@@ -13,7 +13,7 @@ php composer.phar remove yiisoft/yii2
 
 ```shell
 git checkout main
-git tag 1.0.10 && git push origin 1.0.10
+git tag 1.0.11 && git push origin 1.0.11
 
 https://packagist.org/packages/sccp/common-utils
 

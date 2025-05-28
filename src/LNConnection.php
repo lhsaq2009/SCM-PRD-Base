@@ -1,8 +1,6 @@
 <?php
 
-namespace CommonUtils;
-
-require_once __DIR__ . '/../vendor/autoload.php';
+namespace sccp\base;
 
 use yii\db\Connection;
 use yii\db\Command;

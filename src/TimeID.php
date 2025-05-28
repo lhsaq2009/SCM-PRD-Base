@@ -1,8 +1,6 @@
 <?php
 
-namespace CommonUtils;
-
-require_once __DIR__ . '/../vendor/autoload.php'; // 放在 namespace 之后
+namespace sccp\base;
 
 use Ulid\Ulid;
 use UUID\UUID;
